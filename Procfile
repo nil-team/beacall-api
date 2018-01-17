@@ -1,1 +1,1 @@
-web: Beacall-API
+web: .build/release/beacall-api

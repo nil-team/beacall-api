@@ -1,0 +1,11 @@
+{
+  "name": "beacall-api",
+  "description": "beacall-api",
+  "repository": "https://github.com/nil-team/beacall-api",
+  "keywords": ["web", "swift", "kitura"],
+  "buildpacks": [
+    {
+      "url": "https://github.com/kylef/heroku-buildpack-swift"
+    }
+  ]
+}
