@@ -1,6 +1,8 @@
 {
-    "9h-11h": "Panoramas",
-    "11h15-13h15": "Palais Brogniart",
-    "14h15-16h15": "Palais Brogniart",
-    "16h30-18h30": "Panoramas"
+    "place": "Palais Brogniart",
+    "begin": "9h",
+    "end": "11h",
+    "lat": "48.8688356",
+    "long": "2.3414426",
+    "marge": "500"
 }
