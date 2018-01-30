@@ -5,7 +5,7 @@ let router = Router()
 
 router.all("/", middleware: BodyParser(), StaticFileServer(path: "./Public"))
 
-router.get("/student1") { request, response, next in
+router.get("/") { request, response, next in
     
     let data = [
         "info": [
@@ -15,6 +15,7 @@ router.get("/student1") { request, response, next in
                 "password": "eemi2017"
             ]
         ],
+        
         "courses": [
             [
                 "place": "Les Panoramas",
